@@ -1,5 +1,5 @@
 # cordova-plugin-push
-the plugin help the cordova app get the push
+the plugin help the cordova app get the push(huawei，xiaomi，jpush)
 ##use
 download the this plugin file to cordova project plugins file directory,then use cmd
 ```
