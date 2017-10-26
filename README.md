@@ -1,12 +1,13 @@
 # cordova-plugin-push
-the plugin help the cordova app get the push(huawei，xiaomi，jpush)
+cordova推送插件,在极光官方推送插件的基础上,在android端增加华为推送和小米推送
 
-## use
-download the this plugin file to cordova project plugins file directory,then use cmd
+## 使用
 ```
+//下载或者clone项目到cordova app工程中的plugin目录
+git clone https://github.com/wufan123/cordova-plugin-push.git
+
+//在cordova根目录使用下面命令行添加该插件
 cordova plugin add cordova-plugin-push --variable API_KEY=yourjPushkey
-```
 
-## for android 
-- you must override the showNotification method in the PushManager.java to custom your notification 
-- you maybe have own PushBean to define your message
+```
+然后,你需要重写`PushManager.java`中的`showNotification`方法来定制通知栏。
