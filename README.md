@@ -1,7 +1,7 @@
-# cordova-plugin-push
+## 项目简介
 cordova推送插件,在极光官方推送插件的基础上,在android端增加华为推送和小米推送
 
-## 使用
+## 使用步骤
 ```
 //下载或者clone项目到cordova app工程中的plugin目录
 git clone https://github.com/wufan123/cordova-plugin-push.git
